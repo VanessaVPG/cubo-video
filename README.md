@@ -7,3 +7,6 @@
   - O vídeo utilizado é parte de um projeto previamente criado por mim no Blender.
 
 
+### A fazer: 
+
+- [ ] Fazer funcionar no mobile 
