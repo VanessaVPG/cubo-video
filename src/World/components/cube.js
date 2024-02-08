@@ -15,6 +15,12 @@ function createCube() {
       }, 1000);
     }
   });
+  document.addEventListener('touchstart', () => {
+    if (video.video.paused) {
+      video.video.play();
+      video.video.loop = true;
+    }
+  });
 
   return cube;
 }
