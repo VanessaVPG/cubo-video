@@ -1,4 +1,4 @@
-# Projeto feito utilizando threejs com javascript.
+# Projeto feito utilizando three.js.
 
 ## Sobre o projeto
 
