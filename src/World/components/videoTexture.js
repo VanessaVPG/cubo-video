@@ -1,5 +1,3 @@
-// texture.js
-
 import { LinearFilter, RGBAFormat, VideoTexture } from "three";
 
 function createVideo() {
