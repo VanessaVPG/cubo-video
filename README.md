@@ -1,8 +1,12 @@
-# Projeto feito utilizando threejs com javascript.
+# Projeto feito utilizando three.js.
 
 ## Sobre o projeto
 
-  - O projeto consiste em renderizar um video em um cubo utilizando threejs. 
-  - O projeto foi feito com o intuito de aprender mais sobre threejs e suas funcionalidades, principalmente em relação a renderização de videos.
+  - Este projeto tem como objetivo renderizar um vídeo em um cubo utilizando a biblioteca three.js.
+  - Foi concebido com a finalidade de aprimorar o conhecimento em three.js, explorando suas funcionalidades, especialmente aquelas relacionadas à texturização com vídeos.
+  - O vídeo utilizado é parte de um projeto previamente criado por mim no Blender.
 
 
+### A fazer: 
+
+- [ ] Fazer funcionar no mobile 
