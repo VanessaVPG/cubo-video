@@ -5,7 +5,9 @@ import { LinearFilter, RGBAFormat, VideoTexture } from "three";
 function createVideo() {
   const video = document.createElement('video');
   video.src = '/video/foguete.mp4';
+  video.load();
   video.controls = true;
+  video.crossOrigin = 'anonymous';
   const texture = new VideoTexture(video);
 
   texture.needsUpdate = true;

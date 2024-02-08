@@ -12,16 +12,17 @@ function main() {
   world.init();
   const stopRotation = document.querySelector('#stopRotation');
   stopRotation.addEventListener('click', () => {
-    world.stopRotation();
+    world.toggleRotation;
   });
 
 }
 
+
 function handleOverlay() {
-  document.addEventListener('click', (
+  const overlay = document.querySelector('#overlay');
+  overlay.addEventListener('click', (
     function () {
-      const overlay = document.querySelector('#overlay');
-      overlay.style.opacity = 0;
+      overlay.style.opacity = '0';
       setTimeout(() => {
         overlay.remove();
       }, 1000);
